@@ -1,0 +1,79 @@
+#root {
+  
+}
+
+.background{
+  background-color:#747bff ;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-form {
+  background-color: white;
+  height: 600px;
+  width: 400px;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.title {
+  color: black;
+  font-weight:bold ;
+  font-size: 30px;
+  text-align: center;
+}
+
+.wrap-button{
+  display: flex;
+  width: 100%;
+}
+
+.login-button {
+width: 50%;
+background-color:#747bff ;
+border-width: 1px;
+border-color: gray;
+border-style: solid;
+border-radius: 7px;
+}
+
+.signup-button {
+width: 50%;
+background-color:white ;
+border-width: 1px;
+border-color: gray;
+border-style: solid;
+border-radius: 7px;
+}
+
+.input {
+  width: 90%;
+  margin-top: 30px;
+  height: 50px;
+  border-radius: 5px;
+  background-color: white;
+  color: black;
+  padding-left: 30px;
+}
+
+.forgot-password {
+  color: #747bff;
+}
+
+.submit-button {
+  width: 100%;
+  background-color: #747bff;
+  height: 50px;
+}
+
+.not-a-member {
+  color: black;
+  text-align: center;
+}
+
+.signup-text {
+  color: #747bff;
+}
